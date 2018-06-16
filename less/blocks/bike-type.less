@@ -1,0 +1,130 @@
+.bike-type {
+	width: 100%;
+	display: grid;
+	grid-template-areas: "vintage-oliva vintage-oliva vintage-oliva-map"
+						 "vintage-oliva vintage-oliva vintage-oliva-map" 
+						 "vintage-oliva vintage-oliva vintage-oliva-small" 
+						 "la-boriosa-map la-boriosa la-boriosa" 
+						 "la-boriosa-map la-boriosa la-boriosa" 
+						 "la-boriosa-small la-boriosa la-boriosa" 
+						 "retro-bike-left retro-bike retro-bike-right" 
+						 "retro-bike-left retro-bike retro-bike-right" 
+						 "retro-bike-left retro-bike-bottom retro-bike-right";
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+
+    .vintage-oliva {
+    	grid-area: vintage-oliva;
+    	background: url("../img/vintage-oliva.jpg") no-repeat;
+    	background-size: cover;
+    	width: 100%;
+    	height: 100%;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+
+    .vintage-oliva-map {
+    	grid-area: vintage-oliva-map;
+    	box-size: padding-box;
+    	padding-top: 70px;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+
+    .vintage-oliva-small {
+    	grid-area: vintage-oliva-small;
+    	background: url("../img/vintage-oliva-small.jpg") no-repeat;
+    	background-size: cover;
+    }
+
+    .la-boriosa-map {
+    	grid-area: la-boriosa-map;
+    }
+
+    .la-boriosa-small {
+    	grid-area: la-boriosa-small;
+    	background: url("../img/la-boriosa-small.jpg") no-repeat;
+    	background-size: cover;
+    }
+
+    .la-boriosa {
+    	grid-area: la-boriosa;
+    	background: url("../img/la-boriosa.jpg") no-repeat;
+    	background-size: cover;
+    	width: 100%;
+    	height: 100%;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+
+    }
+
+    .retro-bike-left {
+    	grid-area: retro-bike-left ;
+    	background: url("../img/retro-bike-left.jpg") no-repeat;
+    	background-size: cover;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+
+    .retro-bike {
+    	grid-area: retro-bike;
+    }
+
+    .retro-bike-bottom {
+    	grid-area: retro-bike-bottom;
+    	background: url("../img/retro-bike-bottom.jpg") no-repeat;
+    	background-size: cover;
+    	justify-self: start;
+    	align-self: center;
+    	width: 100%;
+    	height: 100%;
+    }
+
+    .retro-bike-right {
+    	grid-area: retro-bike-right;
+    	background: url("../img/retro-bike-right.jpg") no-repeat;
+    	background-size: cover;
+    	justify-self: start;
+    	align-self: center;
+    	width: 100%;
+    	height: 100%;
+    }
+
+    .vintage-oliva-map,
+    .la-boriosa-map,
+    .retro-bike {
+    	box-size: padding-box;
+    	padding-top: 70px;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	position: relative;
+
+    	img {
+    		margin: 0 auto;
+    	}
+
+    	h3 {
+    		text-align: center;
+    	}
+
+    	p {
+    		padding: 0 10%;
+    		box-sizing: padding-box;
+    	}
+
+    	&:after {
+    		content: "";
+    		position: absolute;
+    		bottom: -40px;
+    		left: calc(50% + (-5px));
+    		border: 20px solid transparent;
+    		border-top: 20px solid white;
+    	}
+    }
+}
