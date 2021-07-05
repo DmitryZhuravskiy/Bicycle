@@ -11,7 +11,7 @@ Presentation - https://dmitryzhuravskiy.github.io/Bicycle/
 
 # Description of the project
 
-This is a one-page bicycle store website. The site has a navigation in the header, customer reviews, a feedback form and links to social networks. Simple website business card. The project has an adaptive for different screens, the styles for the blocks are structured and written using the Less preprocessor.
+This is a one-page bicycle store website. The site has navigation in the header, customer reviews, a feedback form, and links to social networks. Simple website business card. The project has an adaptive for different screens, the styles for the blocks are structured and written using the Less preprocessor.
 
 <img src="https://github.com/DmitryZhuravskiy/Bicycle/raw/english/screenshots/bicycle--1.jpg "/>
 <br /><br />
