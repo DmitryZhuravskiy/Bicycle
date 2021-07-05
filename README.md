@@ -15,3 +15,15 @@ This is a one-page bicycle store website. The site has a navigation in the heade
 
 <img src="https://github.com/DmitryZhuravskiy/Bicycle/raw/english/screenshots/bicycle--1.jpg "/>
 <br /><br />
+<img src="https://github.com/DmitryZhuravskiy/Bicycle/raw/english/screenshots/bicycle--2.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/Bicycle/raw/english/screenshots/bicycle--3.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/Bicycle/raw/english/screenshots/bicycle--4.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/Bicycle/raw/english/screenshots/bicycle--5.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/Bicycle/raw/english/screenshots/bicycle--6.jpg "/>
+<br /><br />
+<img src="https://github.com/DmitryZhuravskiy/Bicycle/raw/english/screenshots/bicycle--7.jpg "/>
+<br /><br />
