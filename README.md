@@ -1,6 +1,6 @@
 # Bicycle
 
-Presentation - https://dmitryzhuravskiy.github.io/Bicycle/
+Presentation - https://dmitryzhuravskiy.github.io/Bicycle/ ;
 
 # Startup Guide
 
